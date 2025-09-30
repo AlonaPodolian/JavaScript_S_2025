@@ -85,7 +85,9 @@ function muunnaVuosiksi(paivat) {
                     let pvt = parseInt((paivat % 365) - kuukaudet * (365 / 12));
                     console.log(paivat + " päivää on " + vuodet + " vuotta " + kuukaudet + " kuukautta ja " + pvt + " päivää.")
                 }
-muunnaVuosiksi(400);              
+muunnaVuosiksi(400);   
+
+
 
 
 
