@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tehtävä 3</title>
+    <link rel="stylesheet" href="tehtävä_3.css">
+</head>
+<body>
+    <div class="kortti">
+        <h2>Tehtävä 3</h2>
+        <p>Kirjoita ohjelma, joka tarkastaa, onko antamassasi sanassa ö-kirjainta ja kirjoittaa vastaukseksi joko: on tai ei ole</p>
+        <form onsubmit="tarkistaO(); return false">
+        <label for="sana">Anna sana:</label>
+        <input type="text" name="sana" id="sana"><br><br>
+        <button onclick="tarkistaO()">Onko ö-kirjainta</button>
+        </form>
+        <p id="tulos"></p>
+    </div>
+    <script src="tehtävä_3.js"></script>
+    
+</body>
+</html>

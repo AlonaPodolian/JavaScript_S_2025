@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tehtävä 9</title>
+    <link rel="stylesheet" href="tehtävä_9.css">
+</head>
+<body>
+    <div class="kortti">
+        <h2>Tehtävä 9</h2>
+        <p>Kirjoita ohjelma, joka etsii annetusta luvuista suurimman ja pienimmän arvon</p>
+
+        <form onsubmit="etsiSuurinJaPienin(); return false">
+
+            <label for="luku">Anna 1. luku:</label>
+            <input type="number" name="number" id="l1"><br><br>
+
+            <label for="luku">Anna 2. luku:</label>
+            <input type="number" name="number" id="l2"><br><br>
+
+            <label for="luku">Anna 3. luku:</label>
+            <input type="number" name="number" id="l3"><br><br>
+
+            <label for="luku">Anna 4. luku:</label>
+            <input type="number" name="number" id="l4"><br><br>
+
+            <label for="luku">Anna 5. luku:</label>
+            <input type="number" name="number" id="l5"><br><br>
+
+            <button onclick="etsiSuurinJaPienin()"> Etsi suurin ja pienin</button>
+
+            <p id="tulos"></p>
+        </form>
+
+    </div>
+
+    <script src="tehtävä_9.js"></script>
+    
+</body>
+</html>

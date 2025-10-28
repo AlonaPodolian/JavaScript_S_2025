@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tehtävä 4</title>
+    <link rel="stylesheet" href="tehtävä_4.css">
+</head>
+<body>
+    <div class="kortti">
+    <h2>Tehtävä 4</h2>
+    <p>Kirjoita ohjelma, joka laskee annetun luvun kertoman
+(esim: 4 -> 4*3*2*1 = 24)</p>
+    <form onsubmit="laskeKertoma(); return false">
+        <label for="sana">Anna luku, josta lasketaan kertoma:</label>
+        <input type="number" name="luku" id="luku">
+        <button onclick="laskeKertoma()">Laske kertoma</button>
+    </form>
+    <p id="tulos"></p>
+    </div>
+    <script src="tehtävä_4.js"></script>
+    
+</body>
+</html>

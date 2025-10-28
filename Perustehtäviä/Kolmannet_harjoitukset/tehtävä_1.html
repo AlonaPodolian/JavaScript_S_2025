@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parilliset luvut</title>
+    <link rel="stylesheet" href="tehtävä_1.css">
+</head>
+<body>
+    <div class="kortti oranssi">
+    <h2>Tehtävä 1</h2>
+    <P>Tee ohjelma, joka pyytää käyttäjältä parillista lukua ja tulostaa tämän jälkeen kaikki parilliset luvut siihen asti poislukien 0:n
+
+</P>
+    <form onsubmit="tulostaParilliset(); return false;">
+        <label for="luku">Anna parilliset luku:</label>
+        <input type="number" id="luku" required><br><br>
+        <button onclick="submit">Tulosta parilliset</button>
+    </form>
+
+    <p id="tulos"></p>
+    </div>
+
+    <script src="tehtävä_1.js"></script>
+</body>
+</html>

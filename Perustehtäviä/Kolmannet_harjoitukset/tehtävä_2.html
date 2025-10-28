@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tehtävä 2</title>
+    <link rel="stylesheet" href="tehtävä_2.css">
+</head>
+<body>
+    <div class="kortti">
+
+    <h2>Tehtävä 2</h2>
+    <p>Kirjoita ohjelma, joka muuntaa käyttäjän antaman sanan salasanaksi siten, että laittaa joka toiseksi kirjaimeksi ison Ö-kirjaimen, eli jos sana on Kaappi --> KÖaÖaÖpÖpÖiÖ</p>
+    <form onsubmit="muunnaSalasanaksi(); return false">
+    <label for="sana">Anna sana:</label>
+    <input type="text" id="sana"><br><br>
+    <button onclick="munnaSalasanaksi">Muuta salasanaksi</button>
+    </form>
+    <p id="tulos"></p>
+    </div>
+
+    <script src="tehtävä_2.js"></script>
+</body>
+</html>

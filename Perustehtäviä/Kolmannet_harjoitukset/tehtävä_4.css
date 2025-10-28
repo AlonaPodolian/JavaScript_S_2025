@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 20px;
+}
+
+.kortti {
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgba(96, 233, 187, 0.899);
+    padding: 15px;
+}
