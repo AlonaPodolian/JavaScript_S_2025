@@ -1,0 +1,28 @@
+body {
+    background-color: #749bee;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.game-container {
+    text-align: center;
+}
+
+#mazeCanvas {
+    background-color: cadetblue;
+    border: 3px solid #000;
+    background-size: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+#message {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: green;
+}
+
